@@ -1,0 +1,16 @@
+title: 'C language how to create a mini calculator '
+description: Here You can learn how to make a calculator with c
+template:
+  repo: c-language-how-to-create-a-mini-calculator-template
+  name: c-language-how-to-create-a-mini-calculator
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
